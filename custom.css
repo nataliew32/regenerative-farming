@@ -1,0 +1,176 @@
+@charset "UTF-8";
+/* Add your custom CSS declarations below  */
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-family:'Monserrat';
+    color:whitesmoke;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+a:hover{
+    color: #c7c7bd;
+}
+
+ul.nav.flex-column{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+h1{
+    font-family:'Courier';
+    text-align: center;
+    text-transform:lowercase;
+    font-weight: bolder;
+    padding: 20px;
+    font-size: 2.4rem;
+    letter-spacing: .4rem; 
+    color:#404c42;
+}
+
+h2{
+    text-align: center;
+    padding-top: 50px;
+    font-family:'Courier';
+    font-weight:lighter;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    color:#9f8e7a;
+}
+
+h3{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-family:'Courier';
+    font-size: 1.2rem;
+    font-weight:lighter;
+    color:#949c8f;
+}
+
+h4{
+    font-size: .9rem;
+    text-transform: lowercase;
+    font-weight:lighter;
+    font-size: 1rem;
+    font-family:'Courier';
+    
+}
+
+h5{ 
+    font-family:'Courier';
+
+}
+p{
+    padding: 30px;!important;
+}
+
+a {
+    color:#657163;
+    text-decoration: none;
+}
+
+bg-image {
+    max-width: 100%;
+    height: auto;
+}
+iframe {
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: 500px;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #404c42;
+    border-color: #b5b4a2;
+}
+
+.btn-dark:hover {
+    background-color:#657163;
+    border-color: #b5b4a2;
+}
+
+.btn-dark:active {
+    background-color:#949c8f; 
+    border-color: #b5b4a2;
+}
+
+.btn-dark:visited {
+    background-color: #404c42;
+    border-color: #b5b4a2;
+}
+
+.img-fluid {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 60px;
+}
+
+.circular--square {
+    border-radius: 100%;
+}
+
+.fa-lightbulb{
+    font-size:3rem !important;
+    color:#949c8f;
+}
+.fa-tractor{
+    font-size:5rem !important;
+    color:#404c42;
+}
+
+.fa-temperature-high{
+    font-size:3rem !important;
+    color:#949c8f;
+}
+.fa-check {
+    font-size:3rem !important;
+    color:#949c8f;
+}
+.fa-play {
+    font-size:2.5rem !important;
+    color:#949c8f;
+}
+.fa-seedling {
+    font-size:4rem !important;
+    color:#949c8f;
+}
+.fa-globe {
+    font-size:3.1rem !important;
+    color:#949c8f;
+}
+.fa-users {
+    font-size:3.1rem !important;
+    color:#949c8f;
+}
+
+.fa-cloud-sun-rain {
+    font-size:3.2rem !important;
+    color:#949c8f;
+}
+.fa-thumbs-up {
+    font-size:3.2rem !important;
+    color:#949c8f;
+}
+.fa-horse-head {
+    font-size:3.2rem !important;
+    color:#949c8f;
+}
+@media only screen and (min-width: 300px){ .cow{
+     height:40vh;
+    }    
+}
+
+@media only screen and (min-width: 600px){ .cow{
+     height:60vh;
+    }    
+}
